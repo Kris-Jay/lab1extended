@@ -64,6 +64,8 @@ body {
 @media only screen and (min-width: 768px) {
   .header {
     display: flex;
+    align-items: center;
+    
   }
 
   .main-container {
@@ -79,7 +81,7 @@ body {
     flex: 1;
     position: relative;
   }
-
+/* dont need to put flex-end here, could of used space-between in header */
   .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -93,7 +95,10 @@ body {
   .circle {
     position: absolute;
   }
+/* could of used percentage instead of pixel for radius */
 
+/* put the bottom item/circle in first to show in viewport,last item shows on top */
+  
   .first {
     right: 75px;
     top: 170px;
