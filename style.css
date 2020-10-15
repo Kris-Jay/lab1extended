@@ -114,11 +114,11 @@ body {
   }
 
   .third {
-    top: 230px;
+    top: 210px;
     right: 10px;
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     background-color: rgba(207, 130, 213, 0.6);
-    border-radius: 50px;
+    border-radius: 75px;
   }
 }
